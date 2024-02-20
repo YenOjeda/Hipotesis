@@ -1,8 +1,8 @@
-Validacion de Hipotesis
+# Validacion de Hipotesis
 
 La validación de hipótesis es un proceso fundamental en la toma de decisiones basadas en evidencia, y no solamente en creencias u opiniones. En el análisis de datos, es común plantear suposiciones o hipótesis sobre relaciones, tendencias o diferencias entre las variables de los datos disponibles. La validación de estas hipótesis (confirmar o refutar) se consigue con técnicas y métodos diseñados para determinar si los resultados observados en los datos, son estadísticamente significativos o si pueden atribuirse al azar.
 
-Resumen/Contexto
+# Resumen/Contexto
 
 En un mundo en el que la industria musical es extremadamente competitiva y está en permanente evolución, la capacidad de tomar decisiones basadas en datos se ha convertido en un activo invaluable.
 
@@ -18,7 +18,7 @@ A continuacion las hipotesis planteadas por la discografica sobre qué hace que 
     • Los artistas con un mayor número de canciones en Spotify tienen más streams totales.
     • Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify.
 .
-Herramientas Utilizadas
+# Herramientas Utilizadas
    
     •  Big Query (SQL).
     •  Google Colab (Python).

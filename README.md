@@ -37,11 +37,11 @@ Basando en el analisis de los datos comprobe y refute las siguientes hipotesis:
 # Insides
 
 - Hipotesis:
-    • Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
-    • Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer = Hipotesis Rechazada.
-    • La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams = Hipotesis Aceptada.
-    • Los artistas con un mayor número de canciones en Spotify tienen más streams totales = Hipotesis Rechazada.
-    • Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
+- Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
+- Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer = Hipotesis Rechazada.
+- La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams = Hipotesis Aceptada.
+- Los artistas con un mayor número de canciones en Spotify tienen más streams totales = Hipotesis Rechazada.
+- Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
 - Se presentaron recomendaciones para el lanzamiento del nuevo artista.
    
 # Herramientas Utilizadas

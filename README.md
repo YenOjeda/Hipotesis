@@ -10,14 +10,40 @@ En este contexto, una discográfica se enfrenta al emocionante desafío de lanza
 
 Con la ayuda de un dataset de Spotify con información sobre las canciones más escuchadas en 2023 valide y refute las hipotesis planteadas por la discografica  mediante el análisis de los datos, y proporcione recomendaciones estratégicas basadas en los hallazgos para que la discográfica y el nuevo artista puedan tomar decisiones informadas que aumenten sus posibilidades de conseguir el “éxito”
 
-A continuacion las hipotesis planteadas por la discografica sobre qué hace que una canción sea más escuchada. Estas hipótesis incluyen:
-   
+# Datasets
+
+Utilice 3 datasets, una con información relacionada con las canciones reproducidas en Spotify (nombre de la canción, nombre del artista, # de streams enla plataforma, etc), otra con información del comportamiento de las canciones en otras plataformas (Apple Music y Deezer) y otra con la información sobre las caracteristicas técnicas de las canciones (dance, liveness, speechness, etc). 
+
+
+# Objetivo
+
+Basando en el analisis de los datos comprobe y refute las siguientes hipotesis:
+
     • Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify.
     • Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer.
     • La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams.
     • Los artistas con un mayor número de canciones en Spotify tienen más streams totales.
     • Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify.
-.
+
+# Proceso
+
+- ETL: identificación de nulos, duplicados, datos fuera de alcance, creación de nuevas variables, etc. En BigQuery (SQL).
+- Técnicas de Análisis:
+    - Segmentación de categorías.
+    - Validación de hipotesis: Correlación de variables.
+    - Prueba de significancia: Test de Wilcoxon. Para reafirmar la hipotesis.
+    - Regresión lineal.
+ 
+# Insides
+
+- Hipotesis:
+    • Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
+    • Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer = Hipotesis Rechazada.
+    • La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams = Hipotesis Aceptada.
+    • Los artistas con un mayor número de canciones en Spotify tienen más streams totales = Hipotesis Rechazada.
+    • Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
+- Se presentaron recomendaciones para el lanzamiento del nuevo artista.
+   
 # Herramientas Utilizadas
    
     •  Big Query (SQL).

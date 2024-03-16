@@ -34,7 +34,7 @@ Basando en el analisis de los datos comprobe y refute las siguientes hipotesis:
     - Prueba de significancia: Test de Wilcoxon. Para reafirmar la hipotesis.
     - Regresión lineal.
  
-# Insides
+# Insights
 
 - Hipotesis:
 - Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify = Hipotesis Rechazada.
